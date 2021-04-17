@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.4'
+use_frameworks!
+
+target 'Relic' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+
+  # Pods for Relic
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'FirebaseUI', '~> 5.0'
+  pod 'GeoFire', :path => '/Users/bryanmcguffin/Desktop/GitHub/AppDev/Relic/geofire-objc'
+
+  target 'RelicTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

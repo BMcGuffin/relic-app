@@ -1,0 +1,6 @@
+framework module Pods_Relic {
+  umbrella header "Pods-Relic-umbrella.h"
+
+  export *
+  module * { export * }
+}

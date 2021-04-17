@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0142A064E122BD4C8D78DBB8 /* Pods_Relic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88E74AED72A8C95CC2951EC /* Pods_Relic.framework */; };
+		2FD5D0C759DD7C4806AF46A8 /* Pods_RelicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AE97E1CE64724105308991 /* Pods_RelicTests.framework */; };
+		4F11FF4620B615F8007BE0C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F11FF4520B615F8007BE0C7 /* GoogleService-Info.plist */; };
+		4F4B19A920A0FF1500A8FBB4 /* RelicModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B19A820A0FF1500A8FBB4 /* RelicModelObject.swift */; };
+		4F4B19AB20A0FF2000A8FBB4 /* UserModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B19AA20A0FF2000A8FBB4 /* UserModelObject.swift */; };
+		4F4B19AD20A0FF4500A8FBB4 /* ContactsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B19AC20A0FF4500A8FBB4 /* ContactsTVC.swift */; };
+		4F4B19AF20A0FF6300A8FBB4 /* MyRelicsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B19AE20A0FF6300A8FBB4 /* MyRelicsTVC.swift */; };
+		4F4B19B120A1011E00A8FBB4 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B19B020A1011E00A8FBB4 /* ContactsCell.swift */; };
+		4F4B19B320A1013C00A8FBB4 /* MyRelicsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B19B220A1013C00A8FBB4 /* MyRelicsCell.swift */; };
+		4F66880F20AE345E00D71D9A /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66880E20AE345E00D71D9A /* MapVC.swift */; };
+		4F66881120AE38BA00D71D9A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F66881020AE38BA00D71D9A /* MapKit.framework */; };
+		4F76298B20B669B600DCBD16 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76298A20B669B600DCBD16 /* LoginVC.swift */; };
+		4F76298D20B66F3D00DCBD16 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76298C20B66F3D00DCBD16 /* UserProfileVC.swift */; };
+		4F76298F20B674F800DCBD16 /* CentralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76298E20B674F800DCBD16 /* CentralVC.swift */; };
+		4F76580120BE5DB30001A700 /* RelicDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76580020BE5DB30001A700 /* RelicDetailVC.swift */; };
+		4F880C6B20CD9089000D9D30 /* ImageCloseupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F880C6A20CD9089000D9D30 /* ImageCloseupVC.swift */; };
+		4F8DEAA420BCB33D003852DA /* NewRelicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DEAA320BCB33D003852DA /* NewRelicVC.swift */; };
+		4FD4B78120C86D41003E948D /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD4B78020C86D41003E948D /* CameraVC.swift */; };
+		4FD543A0209A453C00B8F12B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD5439F209A453C00B8F12B /* AppDelegate.swift */; };
+		4FD543A5209A453C00B8F12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD543A3209A453C00B8F12B /* Main.storyboard */; };
+		4FD543A7209A453E00B8F12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD543A6209A453E00B8F12B /* Assets.xcassets */; };
+		4FD543AA209A453E00B8F12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD543A8209A453E00B8F12B /* LaunchScreen.storyboard */; };
+		4FD543B5209A453E00B8F12B /* RelicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD543B4209A453E00B8F12B /* RelicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD543B1209A453E00B8F12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD54394209A453C00B8F12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD5439B209A453C00B8F12B;
+			remoteInfo = Relic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02978FC315127AFFCC26C778 /* Pods-RelicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RelicTests/Pods-RelicTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B8EB3499C56D8AFFCF682E6 /* Pods-RelicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelicTests/Pods-RelicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A766EC4BB605906D2CBA8FC /* Pods-Relic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Relic/Pods-Relic.debug.xcconfig"; sourceTree = "<group>"; };
+		4F11FF4520B615F8007BE0C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F4B19A820A0FF1500A8FBB4 /* RelicModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicModelObject.swift; sourceTree = "<group>"; };
+		4F4B19AA20A0FF2000A8FBB4 /* UserModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelObject.swift; sourceTree = "<group>"; };
+		4F4B19AC20A0FF4500A8FBB4 /* ContactsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTVC.swift; sourceTree = "<group>"; };
+		4F4B19AE20A0FF6300A8FBB4 /* MyRelicsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRelicsTVC.swift; sourceTree = "<group>"; };
+		4F4B19B020A1011E00A8FBB4 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		4F4B19B220A1013C00A8FBB4 /* MyRelicsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRelicsCell.swift; sourceTree = "<group>"; };
+		4F66880E20AE345E00D71D9A /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		4F66881020AE38BA00D71D9A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4F76298920B6685C00DCBD16 /* Relic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Relic.entitlements; sourceTree = "<group>"; };
+		4F76298A20B669B600DCBD16 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4F76298C20B66F3D00DCBD16 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		4F76298E20B674F800DCBD16 /* CentralVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralVC.swift; sourceTree = "<group>"; };
+		4F76580020BE5DB30001A700 /* RelicDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicDetailVC.swift; sourceTree = "<group>"; };
+		4F880C6A20CD9089000D9D30 /* ImageCloseupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCloseupVC.swift; sourceTree = "<group>"; };
+		4F8DEAA320BCB33D003852DA /* NewRelicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicVC.swift; sourceTree = "<group>"; };
+		4FA9163720B6626F0097DB44 /* relic icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "relic icon.png"; sourceTree = "<group>"; };
+		4FA9163820B662710097DB44 /* relic original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "relic original.png"; sourceTree = "<group>"; };
+		4FD4B78020C86D41003E948D /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		4FD5439C209A453C00B8F12B /* Relic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD5439F209A453C00B8F12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FD543A4209A453C00B8F12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD543A6209A453E00B8F12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD543A9209A453E00B8F12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD543AB209A453E00B8F12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD543B0209A453E00B8F12B /* RelicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD543B4209A453E00B8F12B /* RelicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicTests.swift; sourceTree = "<group>"; };
+		4FD543B6209A453E00B8F12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913A3DD3B5501A02A5627816 /* Pods-Relic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Relic/Pods-Relic.release.xcconfig"; sourceTree = "<group>"; };
+		D88E74AED72A8C95CC2951EC /* Pods_Relic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AE97E1CE64724105308991 /* Pods_RelicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD54399209A453C00B8F12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F66881120AE38BA00D71D9A /* MapKit.framework in Frameworks */,
+				0142A064E122BD4C8D78DBB8 /* Pods_Relic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD543AD209A453E00B8F12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD5D0C759DD7C4806AF46A8 /* Pods_RelicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD54393209A453C00B8F12B = {
+			isa = PBXGroup;
+			children = (
+				4FD5439E209A453C00B8F12B /* Relic */,
+				4FD543B3209A453E00B8F12B /* RelicTests */,
+				4FD5439D209A453C00B8F12B /* Products */,
+				688E476AC17FC59C3AFFCE9A /* Pods */,
+				610CFD860A7C81969F4EB6C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD5439D209A453C00B8F12B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD5439C209A453C00B8F12B /* Relic.app */,
+				4FD543B0209A453E00B8F12B /* RelicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD5439E209A453C00B8F12B /* Relic */ = {
+			isa = PBXGroup;
+			children = (
+				4F76298920B6685C00DCBD16 /* Relic.entitlements */,
+				4FA9163820B662710097DB44 /* relic original.png */,
+				4FA9163720B6626F0097DB44 /* relic icon.png */,
+				4F11FF4520B615F8007BE0C7 /* GoogleService-Info.plist */,
+				4FD5439F209A453C00B8F12B /* AppDelegate.swift */,
+				4F4B19A820A0FF1500A8FBB4 /* RelicModelObject.swift */,
+				4F4B19AA20A0FF2000A8FBB4 /* UserModelObject.swift */,
+				4F76298A20B669B600DCBD16 /* LoginVC.swift */,
+				4F76298E20B674F800DCBD16 /* CentralVC.swift */,
+				4F66880E20AE345E00D71D9A /* MapVC.swift */,
+				4F8DEAA320BCB33D003852DA /* NewRelicVC.swift */,
+				4FD4B78020C86D41003E948D /* CameraVC.swift */,
+				4F4B19AE20A0FF6300A8FBB4 /* MyRelicsTVC.swift */,
+				4F4B19B220A1013C00A8FBB4 /* MyRelicsCell.swift */,
+				4F76298C20B66F3D00DCBD16 /* UserProfileVC.swift */,
+				4F76580020BE5DB30001A700 /* RelicDetailVC.swift */,
+				4F880C6A20CD9089000D9D30 /* ImageCloseupVC.swift */,
+				4FD543A3209A453C00B8F12B /* Main.storyboard */,
+				4FD543A8209A453E00B8F12B /* LaunchScreen.storyboard */,
+				4FD543A6209A453E00B8F12B /* Assets.xcassets */,
+				4FD543AB209A453E00B8F12B /* Info.plist */,
+				4F4B19AC20A0FF4500A8FBB4 /* ContactsTVC.swift */,
+				4F4B19B020A1011E00A8FBB4 /* ContactsCell.swift */,
+			);
+			path = Relic;
+			sourceTree = "<group>";
+		};
+		4FD543B3209A453E00B8F12B /* RelicTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD543B4209A453E00B8F12B /* RelicTests.swift */,
+				4FD543B6209A453E00B8F12B /* Info.plist */,
+			);
+			path = RelicTests;
+			sourceTree = "<group>";
+		};
+		610CFD860A7C81969F4EB6C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F66881020AE38BA00D71D9A /* MapKit.framework */,
+				D88E74AED72A8C95CC2951EC /* Pods_Relic.framework */,
+				F2AE97E1CE64724105308991 /* Pods_RelicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		688E476AC17FC59C3AFFCE9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A766EC4BB605906D2CBA8FC /* Pods-Relic.debug.xcconfig */,
+				913A3DD3B5501A02A5627816 /* Pods-Relic.release.xcconfig */,
+				0B8EB3499C56D8AFFCF682E6 /* Pods-RelicTests.debug.xcconfig */,
+				02978FC315127AFFCC26C778 /* Pods-RelicTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD5439B209A453C00B8F12B /* Relic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD543B9209A453E00B8F12B /* Build configuration list for PBXNativeTarget "Relic" */;
+			buildPhases = (
+				D46E5030A776DC4E8D88D371 /* [CP] Check Pods Manifest.lock */,
+				4FD54398209A453C00B8F12B /* Sources */,
+				4FD54399209A453C00B8F12B /* Frameworks */,
+				4FD5439A209A453C00B8F12B /* Resources */,
+				8AE38CEECE19CCCE118C66AF /* [CP] Embed Pods Frameworks */,
+				FB9CE122512CF227CD0DCB66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Relic;
+			productName = Relic;
+			productReference = 4FD5439C209A453C00B8F12B /* Relic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD543AF209A453E00B8F12B /* RelicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD543BC209A453E00B8F12B /* Build configuration list for PBXNativeTarget "RelicTests" */;
+			buildPhases = (
+				9CFCE1EEC6215AE5B55FE147 /* [CP] Check Pods Manifest.lock */,
+				4FD543AC209A453E00B8F12B /* Sources */,
+				4FD543AD209A453E00B8F12B /* Frameworks */,
+				4FD543AE209A453E00B8F12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD543B2209A453E00B8F12B /* PBXTargetDependency */,
+			);
+			name = RelicTests;
+			productName = RelicTests;
+			productReference = 4FD543B0209A453E00B8F12B /* RelicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD54394209A453C00B8F12B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Bryan McGuffin";
+				TargetAttributes = {
+					4FD5439B209A453C00B8F12B = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4FD543AF209A453E00B8F12B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4FD5439B209A453C00B8F12B;
+					};
+				};
+			};
+			buildConfigurationList = 4FD54397209A453C00B8F12B /* Build configuration list for PBXProject "Relic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD54393209A453C00B8F12B;
+			productRefGroup = 4FD5439D209A453C00B8F12B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD5439B209A453C00B8F12B /* Relic */,
+				4FD543AF209A453E00B8F12B /* RelicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD5439A209A453C00B8F12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD543AA209A453E00B8F12B /* LaunchScreen.storyboard in Resources */,
+				4F11FF4620B615F8007BE0C7 /* GoogleService-Info.plist in Resources */,
+				4FD543A7209A453E00B8F12B /* Assets.xcassets in Resources */,
+				4FD543A5209A453C00B8F12B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD543AE209A453E00B8F12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AE38CEECE19CCCE118C66AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Relic/Pods-Relic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relic/Pods-Relic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFCE1EEC6215AE5B55FE147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46E5030A776DC4E8D88D371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Relic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9CE122512CF227CD0DCB66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Relic/Pods-Relic-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relic/Pods-Relic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD54398209A453C00B8F12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F76298B20B669B600DCBD16 /* LoginVC.swift in Sources */,
+				4F76298D20B66F3D00DCBD16 /* UserProfileVC.swift in Sources */,
+				4F4B19B120A1011E00A8FBB4 /* ContactsCell.swift in Sources */,
+				4F880C6B20CD9089000D9D30 /* ImageCloseupVC.swift in Sources */,
+				4F8DEAA420BCB33D003852DA /* NewRelicVC.swift in Sources */,
+				4F4B19B320A1013C00A8FBB4 /* MyRelicsCell.swift in Sources */,
+				4FD543A0209A453C00B8F12B /* AppDelegate.swift in Sources */,
+				4F76298F20B674F800DCBD16 /* CentralVC.swift in Sources */,
+				4F4B19AD20A0FF4500A8FBB4 /* ContactsTVC.swift in Sources */,
+				4F76580120BE5DB30001A700 /* RelicDetailVC.swift in Sources */,
+				4F4B19A920A0FF1500A8FBB4 /* RelicModelObject.swift in Sources */,
+				4F4B19AB20A0FF2000A8FBB4 /* UserModelObject.swift in Sources */,
+				4FD4B78120C86D41003E948D /* CameraVC.swift in Sources */,
+				4F4B19AF20A0FF6300A8FBB4 /* MyRelicsTVC.swift in Sources */,
+				4F66880F20AE345E00D71D9A /* MapVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD543AC209A453E00B8F12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD543B5209A453E00B8F12B /* RelicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD543B2209A453E00B8F12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD5439B209A453C00B8F12B /* Relic */;
+			targetProxy = 4FD543B1209A453E00B8F12B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD543A3209A453C00B8F12B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD543A4209A453C00B8F12B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD543A8209A453E00B8F12B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD543A9209A453E00B8F12B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD543B7209A453E00B8F12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FD543B8209A453E00B8F12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD543BA209A453E00B8F12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A766EC4BB605906D2CBA8FC /* Pods-Relic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Relic/Relic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR36ZR26WR;
+				INFOPLIST_FILE = Relic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appdev.Relic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD543BB209A453E00B8F12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913A3DD3B5501A02A5627816 /* Pods-Relic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Relic/Relic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR36ZR26WR;
+				INFOPLIST_FILE = Relic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appdev.Relic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD543BD209A453E00B8F12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8EB3499C56D8AFFCF682E6 /* Pods-RelicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR36ZR26WR;
+				INFOPLIST_FILE = RelicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appdev.RelicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relic.app/Relic";
+			};
+			name = Debug;
+		};
+		4FD543BE209A453E00B8F12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02978FC315127AFFCC26C778 /* Pods-RelicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR36ZR26WR;
+				INFOPLIST_FILE = RelicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appdev.RelicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relic.app/Relic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD54397209A453C00B8F12B /* Build configuration list for PBXProject "Relic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD543B7209A453E00B8F12B /* Debug */,
+				4FD543B8209A453E00B8F12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD543B9209A453E00B8F12B /* Build configuration list for PBXNativeTarget "Relic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD543BA209A453E00B8F12B /* Debug */,
+				4FD543BB209A453E00B8F12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD543BC209A453E00B8F12B /* Build configuration list for PBXNativeTarget "RelicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD543BD209A453E00B8F12B /* Debug */,
+				4FD543BE209A453E00B8F12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD54394209A453C00B8F12B /* Project object */;
+}
