@@ -7,11 +7,13 @@ target 'Relic' do
 
   # Pods for Relic
   pod 'Firebase/Core'
+  # Add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
-  pod 'FirebaseUI', '~> 5.0'
-  pod 'GeoFire', :path => '/Users/bryanmcguffin/Desktop/GitHub/AppDev/Relic/geofire-objc'
+  pod 'FirebaseUI/Storage', '~> 5.0'
+  pod 'GeoFire', :path => '/Users/bryanmcguffin/Desktop/Projects/GitHub/relic-app/geofire-objc'
 
   target 'RelicTests' do
     inherit! :search_paths

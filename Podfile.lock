@@ -1,224 +1,139 @@
 PODS:
-  - Bolts (1.9.0):
-    - Bolts/AppLinks (= 1.9.0)
-    - Bolts/Tasks (= 1.9.0)
-  - Bolts/AppLinks (1.9.0):
-    - Bolts/Tasks
-  - Bolts/Tasks (1.9.0)
-  - BoringSSL (10.0.3):
-    - BoringSSL/Implementation (= 10.0.3)
-    - BoringSSL/Interface (= 10.0.3)
-  - BoringSSL/Implementation (10.0.3):
-    - BoringSSL/Interface (= 10.0.3)
-  - BoringSSL/Interface (10.0.3)
-  - FBSDKCoreKit (4.33.0):
-    - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.33.0):
-    - FBSDKCoreKit
-  - Firebase/Auth (5.2.0):
+  - Firebase/Analytics (5.20.2):
+    - Firebase/Core
+  - Firebase/Auth (5.20.2):
     - Firebase/CoreOnly
-    - FirebaseAuth (= 5.0.1)
-  - Firebase/Core (5.2.0):
+    - FirebaseAuth (= 5.4.2)
+  - Firebase/Core (5.20.2):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 5.0.1)
-  - Firebase/CoreOnly (5.2.0):
-    - FirebaseCore (= 5.0.3)
-  - Firebase/Database (5.2.0):
+    - FirebaseAnalytics (= 5.8.1)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/Database (5.20.2):
     - Firebase/CoreOnly
-    - FirebaseDatabase (= 5.0.1)
-  - Firebase/Firestore (5.2.0):
+    - FirebaseDatabase (= 5.1.1)
+  - Firebase/Storage (5.20.2):
     - Firebase/CoreOnly
-    - FirebaseFirestore (= 0.12.3)
-  - Firebase/Storage (5.2.0):
-    - Firebase/CoreOnly
-    - FirebaseStorage (= 3.0.0)
-  - FirebaseAnalytics (5.0.1):
-    - FirebaseCore (~> 5.0)
-    - FirebaseInstanceID (~> 3.0)
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - FirebaseStorage (= 3.1.1)
+  - FirebaseAnalytics (5.8.1):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
-  - FirebaseAuth (5.0.1):
-    - FirebaseCore (~> 5.0)
+  - FirebaseAuth (5.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
     - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseCore (5.0.3):
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-  - FirebaseDatabase (5.0.1):
-    - FirebaseCore (~> 5.0)
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
     - leveldb-library (~> 1.18)
-  - FirebaseFirestore (0.12.3):
-    - FirebaseCore (~> 5.0)
-    - FirebaseFirestore/abseil-cpp (= 0.12.3)
-    - gRPC-ProtoRPC (~> 1.0)
-    - leveldb-library (~> 1.18)
-    - Protobuf (~> 3.1)
-  - FirebaseFirestore/abseil-cpp (0.12.3):
-    - FirebaseCore (~> 5.0)
-    - gRPC-ProtoRPC (~> 1.0)
-    - leveldb-library (~> 1.18)
-    - Protobuf (~> 3.1)
-  - FirebaseInstanceID (3.1.0):
-    - FirebaseCore (~> 5.0)
-  - FirebaseStorage (3.0.0):
-    - FirebaseCore (~> 5.0)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - FirebaseStorage (3.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
     - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseUI (5.0.1):
-    - FirebaseUI/Auth (= 5.0.1)
-    - FirebaseUI/Database (= 5.0.1)
-    - FirebaseUI/Facebook (= 5.0.1)
-    - FirebaseUI/Firestore (= 5.0.1)
-    - FirebaseUI/Google (= 5.0.1)
-    - FirebaseUI/Phone (= 5.0.1)
-    - FirebaseUI/Storage (= 5.0.1)
-    - FirebaseUI/Twitter (= 5.0.1)
-  - FirebaseUI/Auth (5.0.1):
-    - Firebase/Auth (~> 5.0)
-  - FirebaseUI/Database (5.0.1):
-    - Firebase/Database (~> 5.0)
-  - FirebaseUI/Facebook (5.0.1):
-    - FBSDKLoginKit (~> 4.0)
-    - FirebaseUI/Auth
-  - FirebaseUI/Firestore (5.0.1):
-    - Firebase/Firestore
-  - FirebaseUI/Google (5.0.1):
-    - FirebaseUI/Auth
-    - GoogleSignIn (~> 4.0)
-  - FirebaseUI/Phone (5.0.1):
-    - FirebaseUI/Auth
-  - FirebaseUI/Storage (5.0.1):
+  - FirebaseUI/Storage (5.2.2):
     - Firebase/Storage (~> 5.0)
     - SDWebImage (~> 4.0)
-  - FirebaseUI/Twitter (5.0.1):
-    - FirebaseUI/Auth
-    - TwitterKit (~> 3.0)
   - GeoFire (2.0.1):
     - Firebase/Database (~> 5.0)
-  - GoogleSignIn (4.1.2):
-    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
-    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
-    - GTMOAuth2 (~> 1.0)
-    - GTMSessionFetcher/Core (~> 1.1)
-  - GoogleToolboxForMac/DebugUtils (2.1.4):
-    - GoogleToolboxForMac/Defines (= 2.1.4)
-  - GoogleToolboxForMac/Defines (2.1.4)
-  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
-    - GoogleToolboxForMac/Defines (= 2.1.4)
-  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
-    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
-    - GoogleToolboxForMac/Defines (= 2.1.4)
-    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
-  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
-  - gRPC (1.12.0):
-    - gRPC-RxLibrary (= 1.12.0)
-    - gRPC/Main (= 1.12.0)
-  - gRPC-Core (1.12.0):
-    - gRPC-Core/Implementation (= 1.12.0)
-    - gRPC-Core/Interface (= 1.12.0)
-  - gRPC-Core/Implementation (1.12.0):
-    - BoringSSL (~> 10.0)
-    - gRPC-Core/Interface (= 1.12.0)
+  - GoogleAppMeasurement (5.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
-  - gRPC-Core/Interface (1.12.0)
-  - gRPC-ProtoRPC (1.12.0):
-    - gRPC (= 1.12.0)
-    - gRPC-RxLibrary (= 1.12.0)
-    - Protobuf (~> 3.0)
-  - gRPC-RxLibrary (1.12.0)
-  - gRPC/Main (1.12.0):
-    - gRPC-Core (= 1.12.0)
-    - gRPC-RxLibrary (= 1.12.0)
-  - GTMOAuth2 (1.1.6):
-    - GTMSessionFetcher (~> 1.1)
-  - GTMSessionFetcher (1.1.15):
-    - GTMSessionFetcher/Full (= 1.1.15)
-  - GTMSessionFetcher/Core (1.1.15)
-  - GTMSessionFetcher/Full (1.1.15):
-    - GTMSessionFetcher/Core (= 1.1.15)
-  - leveldb-library (1.20)
-  - nanopb (0.3.8):
-    - nanopb/decode (= 0.3.8)
-    - nanopb/encode (= 0.3.8)
-  - nanopb/decode (0.3.8)
-  - nanopb/encode (0.3.8)
-  - Protobuf (3.6.0)
-  - SDWebImage (4.4.1):
-    - SDWebImage/Core (= 4.4.1)
-  - SDWebImage/Core (4.4.1)
-  - TwitterCore (3.1.0)
-  - TwitterKit (3.3.0):
-    - TwitterCore (>= 3.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (5.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.8.0)
+  - GoogleUtilities/Logger (5.8.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.8.0)"
+  - GoogleUtilities/Reachability (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.8.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.0)
+  - leveldb-library (1.22.1)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
 
 DEPENDENCIES:
+  - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
-  - FirebaseUI (~> 5.0)
-  - GeoFire (from `/Users/bryanmcguffin/Desktop/GitHub/AppDev/Relic/geofire-objc`)
+  - FirebaseUI/Storage (~> 5.0)
+  - GeoFire (from `/Users/bryanmcguffin/Desktop/Projects/GitHub/relic-app/geofire-objc`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Bolts
-    - BoringSSL
-    - FBSDKCoreKit
-    - FBSDKLoginKit
+  trunk:
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
+    - FirebaseAuthInterop
     - FirebaseCore
     - FirebaseDatabase
-    - FirebaseFirestore
     - FirebaseInstanceID
     - FirebaseStorage
     - FirebaseUI
-    - GoogleSignIn
-    - GoogleToolboxForMac
-    - gRPC
-    - gRPC-Core
-    - gRPC-ProtoRPC
-    - gRPC-RxLibrary
-    - GTMOAuth2
+    - GoogleAppMeasurement
+    - GoogleUtilities
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
-    - Protobuf
     - SDWebImage
-    - TwitterCore
-    - TwitterKit
 
 EXTERNAL SOURCES:
   GeoFire:
-    :path: "/Users/bryanmcguffin/Desktop/GitHub/AppDev/Relic/geofire-objc"
+    :path: "/Users/bryanmcguffin/Desktop/Projects/GitHub/relic-app/geofire-objc"
 
 SPEC CHECKSUMS:
-  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  BoringSSL: c46efb47593135382bc0934196f16d2f726f5f36
-  FBSDKCoreKit: 572b047a7e029bc44542bcf8a59414e7ff2b543e
-  FBSDKLoginKit: 88cb456349cfb3b554427ce4f8b43729d85dfb40
-  Firebase: 25ed0412036d7d008568d1fb4d2e9d81ea8a0a2c
-  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
-  FirebaseAuth: 463b8ce33bd5d05f706dcd4615499e3212b4132b
-  FirebaseCore: a3c87242451633fff8490183898075ce77d168d2
-  FirebaseDatabase: 482bad9c2abd422bb2321194fb8c937e67426a89
-  FirebaseFirestore: 04074ef839843569387df819d42c834c792ef215
-  FirebaseInstanceID: 05d779cbb97bd5bd5c51a38a903fc9cfe1b2454a
-  FirebaseStorage: 7ca4bb7b58a25fa647b04f524033fc7cb7eb272b
-  FirebaseUI: 5d97d3d5d6a019fc960eb573ea6ce9fb8c310669
-  GeoFire: 861e5452e5754974c9920218305984605374ba0c
-  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
-  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
-  gRPC: 9362451032695e2dfb7bafcd3740e3a27939e4ff
-  gRPC-Core: 9696b220565b283e021cf2722d473a4a74b7622a
-  gRPC-ProtoRPC: a1bd56fb1991a8dae4581250d7259eddabb66779
-  gRPC-RxLibrary: 1ed5314e8b38cd6e55c9bfa048387136ae925ce9
-  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
-  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
-  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
-  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
-  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
-  TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
-  TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAnalytics: ece1aa57a4f43c64d53a648b5a5e05151aae947b
+  FirebaseAuth: dd7bbf03a5aee0eafb3a1aee4d2812bd74bac890
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseDatabase: 2c15b0ea6f2c6eb5e57413f9d6340f1e50b81ae3
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  FirebaseStorage: 6162ef4322502b818d9de0ec552f5226d283de43
+  FirebaseUI: 09519bf436a055cd696bf68687d624423150e4c0
+  GeoFire: 35e97a446160f020cdd694923b182cf0c4f0bccd
+  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
+  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
 
-PODFILE CHECKSUM: b3efc69d14e5614b4331d59a4549f07d3ae8ab7b
+PODFILE CHECKSUM: 85c9be06fbcf32ba9ca9cdb4c63ad1f7eca2f61e
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.11.2
